@@ -23,19 +23,18 @@ p
 
 .ProfileDiv
 {
-    border: 1px solid green;
     height: auto;
     width: 20%;
     float: left;
+    margin-left: 1%;
 }
 
 .TextDiv
 {
-    border: 1px solid red;
     width: 79%;
     height: auto;
-    float: left;
-    margin-top: 20%;
+    float: right;
+    margin-top: 7%;
 }
 
 .container
@@ -47,7 +46,7 @@ p
     grid-template-areas:
     "nav nav nav nav"
     "Main Main Main Main"
-    "Content1 Content1 Content2 Content2"
+    "Content1 Content2 Content2 Content2"
     "footer footer footer footer";
     grid-gap: .2rem;
     font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
@@ -59,20 +58,19 @@ p
 
 nav
 {
-    border: 1px solid green;
     background-color: rgba(0, 0, 0, 0.600);
     grid-area: nav;
     border-radius: var(--main-radius);
     padding-top: var(--main-padding);
+    border: 10px solid transparent;
+    border-image: url(./Images/border2.png) 200 repeat;
 }
 
 main
 {
-    border: 1px solid green;
     background-color: rgba(0, 0, 0, 0.600);
     grid-area: Main;
     border-radius: var(--main-radius);
-    padding-top: var(--main-padding);
 }
 
 #Content1
@@ -95,7 +93,6 @@ main
 
 footer
 {
-    border: 1px solid green;
     background-color: rgba(0, 0, 0, 0.600);
     grid-area: footer;
     border-radius: var(--main-radius);
