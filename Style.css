@@ -13,8 +13,9 @@ body
 
 h1
 {
-    font-size: 52px;
+    font-size: 42px;
 }
+
 p
 {
     font-size: 14px;
@@ -75,7 +76,6 @@ main
 
 #Content1
 {
-    border: 1px solid green;
     background-color: rgba(0, 0, 0, 0.600);
     grid-area: Content1;
     border-radius: var(--main-radius);
@@ -84,7 +84,6 @@ main
 
 #Content2
 {
-    border: 1px solid green;
     background-color: rgba(0, 0, 0, 0.600);
     grid-area: Content2;
     border-radius: var(--main-radius);
