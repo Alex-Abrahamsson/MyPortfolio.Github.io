@@ -11,6 +11,7 @@ body
     background-size: cover;
 }
 
+
 h1
 {
     font-size: 42px;
@@ -22,6 +23,20 @@ p
     margin: 20px;
 }
 
+.AppDiv
+{
+    margin-top: 15%;
+    margin-right: 5%;
+    width: 40%;
+    background-repeat: no-repeat;
+    background-size: contain;
+    transition: all 0.5s;
+}
+.AppDiv:hover
+{
+    width: 70%;
+    margin-top: 10%;
+}
 
 .ProfileDiv
 {
